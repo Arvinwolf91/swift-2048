@@ -20,4 +20,6 @@ DerivedData
 *.xccheckout
 
 #CocoaPods
-Pods
+Podsnode_modules/
+package-lock.json
+ios/Podfile.lock
