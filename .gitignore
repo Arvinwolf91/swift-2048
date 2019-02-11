@@ -23,3 +23,4 @@ DerivedData
 Podsnode_modules/
 package-lock.json
 ios/Podfile.lock
+node_modules
