@@ -10,10 +10,11 @@ import React
 import UIKit
 
 class ViewController: UIViewController {
-                            
-  override func viewDidLoad() {
-    super.viewDidLoad()
-  }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
     @IBAction func highScoreButtonTapped(_ sender: UIButton) {
         NSLog("Hello")
         let jsCodeLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")
@@ -35,9 +36,9 @@ class ViewController: UIViewController {
         self.present(vc, animated: true, completion: nil)
     }
     
-  @IBAction func startGameButtonTapped(_ sender : UIButton) {
-    let game = NumberTileGameViewController(dimension: 4, threshold: 2048)
-    self.present(game, animated: true, completion: nil)
-  }
+    @IBAction func startGameButtonTapped(_ sender : UIButton) {
+        let game = NumberTileGameViewController(dimension: 4, threshold: 2048)
+        self.present(game, animated: true, completion: nil)
+    }
 }
 
