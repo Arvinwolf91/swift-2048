@@ -30,9 +30,8 @@
                                     <action selector="startGameButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Svv-I7-WP7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nu8-tn-zIO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nu8-tn-zIO">
                                 <rect key="frame" x="145" y="356" width="84" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="High Scores">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -44,8 +43,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="nu8-tn-zIO" firstAttribute="top" secondItem="Ng3-Kq-xkw" secondAttribute="bottom" constant="7.5" id="6io-Na-GoK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nu8-tn-zIO" secondAttribute="trailing" constant="130" id="97O-Dn-M7x"/>
                             <constraint firstItem="Ng3-Kq-xkw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9LS-wc-aWw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nu8-tn-zIO" secondAttribute="bottom" constant="281" id="GTu-Da-YZE"/>
                             <constraint firstItem="Ng3-Kq-xkw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="J3L-8R-oCZ"/>
+                            <constraint firstItem="nu8-tn-zIO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="129" id="eiy-jP-Kvs"/>
                         </constraints>
                     </view>
                 </viewController>
